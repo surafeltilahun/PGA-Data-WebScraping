@@ -1,4 +1,4 @@
-# PGA Stats Dataset Scraping
+# PGA Tour Stats Dataset Webscraping
 
 This repo is about extracting PGA golf players statistics data. Due to the size of the dataset, the script needed to be optimized through Parallal comuptation and multiprocessing methods. 
 
