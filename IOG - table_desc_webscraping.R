@@ -115,7 +115,7 @@ stats_link_with_dot<-mapply(function(link) paste0(PGA_url,link,".html"),statstic
   MasterData<-cbind(Desc=alltablesDesc_emptyremoved,Links=all_links_emptyremoved)
 
   #save master data as a json file
-  write.csv(MasterData,"C:/Users/SurafelTilahun/Luma Analytics/Lumineers - Documents/5 Users/Surafel/Web Scraping/Table_desc_data/pga_final_tableDesc.csv",)
+  write.csv(MasterData,"pga_final_tableDesc.csv",)
   
 
 
