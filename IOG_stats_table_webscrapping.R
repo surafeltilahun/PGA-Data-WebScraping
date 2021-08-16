@@ -188,7 +188,7 @@ write.csv(Master_data_final,paste0("C:/Users/SurafelTilahun/Luma Analytics/Lumin
 }
 
 
-write.csv(tournament_list,'C:\\Users\\SurafelTilahun\\Luma Analytics\\Lumineers - Documents\\5 Users\\Surafel\\Web Scraping\\Tournament Name\\tournament_data.csv')
+write.csv(tournament_list,'tournament_data.csv')
 
 
 
