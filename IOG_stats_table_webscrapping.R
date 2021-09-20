@@ -181,7 +181,7 @@ Master_data_final<-cbind(combined_tables_final,split_links[,2:4])
 Master_data_final_json<-toJSON(Master_data_final)
 
 #save master data as a json file
-write.csv(Master_data_final,paste0("C:/Users/SurafelTilahun/Luma Analytics/Lumineers - Documents/5 Users/Surafel/Web Scraping/Webscrpaing_stats_tables_data/Tournament_only/csv_format/pga_final_data_",
+write.csv(Master_data_final,paste0("pga_final_data_",
                                     tournament_list$values[i],".csv",sep=""))
   
 
